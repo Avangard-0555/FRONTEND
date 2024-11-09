@@ -1,0 +1,56 @@
+// Для загаловка
+$primary-color:#2f80ed;
+//Для остального текста
+$secondary-color:#3333;
+
+
+
+html {
+    font-family: Roboto, sans-serif;
+}
+
+* {
+    color: $secondary-color;
+    
+}
+
+h1 {
+    color: $primary-color;
+    margin-bottom: 0.25em;
+
+}
+
+h2 {
+    color: $secondary-color;
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+h3 {
+    color:$primary-color;
+ }
+a {
+    color: $primary-color;
+}
+.contacts {
+    margin: 2em;
+} 
+.contact {
+    display: flex;
+
+    &_type {
+        min-width: 90%;
+    }
+}
+
+.experience {
+    display: flex;
+    margin-bottom: 2em;
+    &_date {
+    min-width: 185px;
+    margin-bottom: 1em;
+    }
+    &_name {
+        font-weight: bold;
+    }
+}
